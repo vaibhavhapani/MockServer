@@ -6,10 +6,10 @@ const {
   handleCheckStatus,
   checkAuthHeader,
   handleUserInfo,
-} = require("./nafath");
+} = require("./scenarios/nafath");
 
-const { handlePasswordUpdateAction } = require("./passwordUpdateAction");
-const { handleWebhookVerification, handleWebhookEvent } = require("./webhook");
+const { handlePasswordUpdateAction } = require("./scenarios/passwordUpdateAction");
+const { handleWebhookVerification, handleWebhookEvent } = require("./scenarios/webhook");
 
 const app = express();
 const port = 3000;
